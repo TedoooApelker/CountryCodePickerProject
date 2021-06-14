@@ -893,11 +893,6 @@
             name_code="pr"
             phone_code="1" />
         <country
-            name="ਫਲਸਤੀਨ"
-            english_name="Palestine"
-            name_code="ps"
-            phone_code="970" />
-        <country
             name="ਪੁਰਤਗਾਲ"
             english_name="Portugal"
             name_code="pt"

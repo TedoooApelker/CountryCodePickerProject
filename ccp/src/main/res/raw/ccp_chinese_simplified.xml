@@ -893,11 +893,6 @@
             name_code="pr"
             phone_code="1" />
         <country
-            name="巴勒斯坦"
-            english_name="Palestine"
-            name_code="ps"
-            phone_code="970" />
-        <country
             name="葡萄牙"
             english_name="Portugal"
             name_code="pt"

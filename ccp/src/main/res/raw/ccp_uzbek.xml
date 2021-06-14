@@ -894,11 +894,6 @@
             name_code="pr"
             phone_code="1" />
         <country
-            name="Palestin"
-            english_name="Palestine"
-            name_code="ps"
-            phone_code="970" />
-        <country
             name="Portugaliya"
             english_name="Portugal"
             name_code="pt"

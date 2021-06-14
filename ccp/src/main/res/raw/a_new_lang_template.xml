@@ -894,11 +894,6 @@
             phone_code="1" />
         <country
             name="TODO: replace with  translated country name"
-            english_name="Palestine"
-            name_code="ps"
-            phone_code="970" />
-        <country
-            name="TODO: replace with  translated country name"
             english_name="Portugal"
             name_code="pt"
             phone_code="351" />

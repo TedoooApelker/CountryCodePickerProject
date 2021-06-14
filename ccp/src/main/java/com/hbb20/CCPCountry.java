@@ -490,6 +490,8 @@ public class CCPCountry implements Comparable<CCPCountry> {
             case "cm": //cameroon
                 return R.drawable.flag_cameroon;
             case "cn": //china
+            case "tw": //taiwan, province of china
+            case "hk": //hong kong
                 return R.drawable.flag_china;
             case "co": //colombia
                 return R.drawable.flag_colombia;
@@ -579,8 +581,6 @@ public class CCPCountry implements Comparable<CCPCountry> {
                 return R.drawable.flag_guinea_bissau;
             case "gy": //guyana
                 return R.drawable.flag_guyana;
-            case "hk": //hong kong
-                return R.drawable.flag_hong_kong;
             case "hn": //honduras
                 return R.drawable.flag_honduras;
             case "hr": //croatia
@@ -839,8 +839,6 @@ public class CCPCountry implements Comparable<CCPCountry> {
                 return R.drawable.flag_trinidad_and_tobago;
             case "tv": //tuvalu
                 return R.drawable.flag_tuvalu;
-            case "tw": //taiwan, province of china
-                return R.drawable.flag_taiwan;
             case "tz": //tanzania, united republic of
                 return R.drawable.flag_tanzania;
             case "ua": //ukraine
@@ -993,6 +991,8 @@ public class CCPCountry implements Comparable<CCPCountry> {
             case "cm":
                 return "🇨🇲";
             case "cn":
+            case "tw":
+            case "hk":
                 return "🇨🇳";
             case "co":
                 return "🇨🇴";
@@ -1086,8 +1086,8 @@ public class CCPCountry implements Comparable<CCPCountry> {
                 return "🇬🇼";
             case "gy":
                 return "🇬🇾";
-            case "hk":
-                return "🇭🇰";
+//            case "hk":
+//                return "🇭🇰";
             case "hm":
                 return "🇭🇲";
             case "hn":
@@ -1352,8 +1352,6 @@ public class CCPCountry implements Comparable<CCPCountry> {
                 return "🇹🇹";
             case "tv":
                 return "🇹🇻";
-            case "tw":
-                return "🇹🇼";
             case "tz":
                 return "🇹🇿";
             case "ua":
@@ -1594,7 +1592,7 @@ public class CCPCountry implements Comparable<CCPCountry> {
         countries.add(new CCPCountry("pm", "508", "Saint Pierre And Miquelon", DEFAULT_FLAG_RES));
         countries.add(new CCPCountry("pn", "870", "Pitcairn Islands", DEFAULT_FLAG_RES));
         countries.add(new CCPCountry("pr", "1", "Puerto Rico", DEFAULT_FLAG_RES));
-        countries.add(new CCPCountry("ps", "970", "Palestine", DEFAULT_FLAG_RES));
+//        countries.add(new CCPCountry("ps", "970", "Palestine", DEFAULT_FLAG_RES));
         countries.add(new CCPCountry("pt", "351", "Portugal", DEFAULT_FLAG_RES));
         countries.add(new CCPCountry("pw", "680", "Palau", DEFAULT_FLAG_RES));
         countries.add(new CCPCountry("py", "595", "Paraguay", DEFAULT_FLAG_RES));
